@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,500&family=Varela+Round&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border-spacing: 0;
+}
+
+nav {
+    height: 100px;
+    background-color: black;
+
+
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    list-style-type: none;
+    justify-content: space-between;
+
+
+
+}
+
+nav {
+    color: white;
+
+
+}
+
+nav a {
+    padding: 20px 0 0 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: medium
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    padding: 0 0 0 20px;
+    ;
+
+}
+
+.photo {
+    height: 70px;
+    width: 170px;
+    padding: 10px 0 0 0;
+
+
+
+}
+
+.signin {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.signin a{
+    color:blue;
+    font-weight:bold;
+    font-size:larger;
+}
+
+.searchbox {
+    padding-right: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+
+}
+
+nav input {
+    width: 220px;
+    height: 20px;
+
+}
+
+.homebar {
+    height: 100px;
+    background-color: rgb(15, 15, 156);
+    display: flex;
+    align-items: center;
+    
+}
+
+.home {
+    width: 100%;
+    padding: 0 100px 0 70px;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.home a {
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+
+    background-color: white;
+    margin:0 100px;
+}
+
+.intro {
+    height: 500px;
+    /* background-color: yellow; */
+    margin: 50px 0 0 0;
+
+
+
+}
+
+
+
+
+
+#oimg {
+    height: 300px;
+    width: 400px;
+    padding: 0 10px;
+    bottom: 0;
+    position: relative;
+}
+
+#otext {
+    background-image: url(images/7.jpg);
+    background-size: 700px;
+    height: 300px;
+    margin: 0 20px;
+    background-position-y: center;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+}
+
+#otext span {
+    font-family:'varela';
+    color: rgb(32, 61, 223);
+    font-weight: bolder;
+    font-size: medium;
+    line-height: 20px;
+    padding: 20px;
+
+}
+#twoimg {
+    height: 300px;
+    width: 400px;
+    padding: 0 10px;
+    bottom: 0;
+    position: relative;
+}
+
+#twotext {
+    background-image: url(images/6.jpg);
+    background-size: 700px;
+    height: 300px;
+    margin: 0 20px;
+    background-position-y: center;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+}
+
+#twotext span {
+    font-family:'varela';
+    color: red;
+    font-weight: bolder;
+    font-size: medium;
+    line-height: 20px;
+    padding: 20px;
+
+}
+.signinbottom{
+    height: 200px;
+    width:60vw;
+    position:relative;
+    margin:20px auto;
+    background-color:rgb(11, 20, 138);
+    DISPLAY:FLEX;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+
+}
+.bottom {
+    height: 300px;
+    background-color: black;
+    width:100%;
+    
+
+}
+.bottomfirst{
+    height:300px;
+    width:20vw;
+    display:flex;
+   align-items:center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+.bottomfirst img{
+    height:130px;
+    width:130px;
+
+}
+#bottomlogo{
+    height:70px;
+    width:150px;
+}
+.bottomsecond{
+    height:300px;
+    width:50vw;
+    font-size:larger;
+}
+.bottomcontent{
+    height:200px;
+    width:200px;
+    
+    position:relative;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+   
+    align-items: center;
+
+}
+.bottomcontent a{
+    padding:10px;
+    color:white;
+}
+.bottomthird{
+    height:300px;
+    width:30vw;
+}
+.bottomicon{
+   
+    width:200px;
+    height:200px;
+    position:relative;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+   
+}
+.bottomicon i{
+    padding:10px;
+}
